@@ -307,6 +307,7 @@ formRecovery.addEventListener('submit', async () => {
 	}
 })
 
-formRecoveryStep2.addEventListener('onkeypress', async () => {
+formRecoveryStep2.addEventListener('onkeyup', () => {
+	console.log('keypress')
 	handleInputsPin()
 })
